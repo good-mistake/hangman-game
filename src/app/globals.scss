@@ -157,6 +157,7 @@ body {
     }
   }
   .hangMan {
+    min-height: 1200px;
     @media (max-width: 1100px) {
       min-height: 1127px;
     }
@@ -202,7 +203,7 @@ body {
           );
           width: 42%;
           height: 500px;
-
+          position: relative;
           border-radius: 72px;
           border-bottom: none;
           box-shadow: inset 0 -8px 0 4px #140e66, inset 0 6px 0 8px #2463ff;
@@ -242,25 +243,25 @@ body {
           }
           .logo {
             position: absolute;
-            top: 17%;
+            top: -20%;
             left: 50%;
             transform: translateX(-50%);
             @media (max-height: 500) {
               transform: translateX(-50%);
-              top: 1%;
+              top: -40% !important;
               width: 250px;
               height: 250px;
             }
             @media (max-height: 900px) {
-              top: 8%;
+              top: -20% !important;
             }
             @media (max-width: 1100px) {
-              top: 17%;
+              top: -20%;
             }
             @media (max-width: 558px) {
               width: 263px;
               height: 130.2px;
-              top: 14%;
+              top: -12%;
             }
             @media (max-width: 320px) {
               width: 213px;
