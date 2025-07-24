@@ -95,6 +95,7 @@ body {
       justify-content: center;
       z-index: 1;
       justify-self: start;
+      cursor: pointer;
     }
     h1 {
       font-size: 136px;
@@ -791,6 +792,7 @@ body {
           input {
             height: 14px;
             background-color: #261676;
+            cursor: pointer;
             &::-moz-range-thumb {
               background-color: #261676;
             }
