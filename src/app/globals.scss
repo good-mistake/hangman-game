@@ -703,7 +703,10 @@ body {
         inset: 1;
         z-index: 1;
         pointer-events: none;
-
+        top: 0px;
+        bottom: 0px;
+        left: 0;
+        right: 0px;
         background: linear-gradient(
           to bottom,
           rgba(26, 4, 58, 0.7) 100%,
