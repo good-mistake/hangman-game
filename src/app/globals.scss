@@ -96,6 +96,9 @@ body {
       z-index: 1;
       justify-self: start;
       cursor: pointer;
+      &:hover {
+        background: linear-gradient(#ff8fffe6 40%, #91b0ff);
+      }
     }
     h1 {
       font-size: 136px;
@@ -290,6 +293,9 @@ body {
                 width: 52.83px;
                 height: 49.81px;
               }
+            }
+            &:hover {
+              background: linear-gradient(#ff8fffe6 40%, #91b0ff);
             }
           }
           button {
@@ -1036,6 +1042,10 @@ body {
             font-size: 24px;
           }
         }
+        &:hover {
+          background-color: #2463ff;
+          color: #fff;
+        }
       }
     }
     .statusOverlay {
@@ -1131,6 +1141,9 @@ body {
             @media (max-width: 558px) {
               width: 69%;
             }
+            &:hover {
+              background-color: rgb(91, 137, 255);
+            }
           }
           .new {
             width: 47%;
@@ -1160,6 +1173,9 @@ body {
             text-transform: uppercase;
             @media (max-width: 558px) {
               width: 73%;
+            }
+            &:hover {
+              background: linear-gradient(#ff8fffe6 50%, #91b0ff);
             }
           }
         }
