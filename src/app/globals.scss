@@ -437,6 +437,9 @@ body {
               height: 16.17px;
             }
           }
+          &:hover {
+            background: linear-gradient(#ff8fffe6 40%, #91b0ff);
+          }
         }
       }
       ul {
