@@ -313,6 +313,9 @@ body {
             @media (max-width: 558px) {
               width: 80%;
             }
+            &:hover {
+              background-color: rgb(91, 137, 255);
+            }
           }
         }
       }
